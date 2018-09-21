@@ -1,0 +1,1351 @@
+﻿Log file open, 09/21/18 15:46:33
+LogInit: Display: Running engine for game: CaveTree
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.178331
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogStreaming: Display: Took  0.684s to configure plugins.
+LogInit: Using libcurl 7.48.0-DEV
+LogInit:  - built for x86_64-unknown-linux-gnu
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_TLSAUTH_SRP
+LogInit:  Libcurl: checking if '/etc/pki/tls/certs/ca-bundle.crt' exists
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = /etc/pki/tls/certs/ca-bundle.crt  - Libcurl will set CURLOPT_CAINFO to it
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: Build: ++UE4+Release-4.20-CL-0
+LogInit: Engine Version: 4.20.2-0+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-0+++UE4+Release-4.20
+LogInit: Net CL: 0
+LogInit: OS: GenericOSVersionLabel (GenericOSSubVersionLabel), CPU: Intel(R) Core(TM) i3-4010U CPU @ 1.70GHz, GPU: GenericGPUBrand
+LogInit: Compiled (64-bit): Sep 14 2018 23:22:42
+LogInit: Compiled with Clang: 5.0.0 (tags/RELEASE_500/final)
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  -opengl4
+LogInit: Base Directory: /home/john/Public/UnrealEngine/Engine/Binaries/Linux/
+LogInit: Installed Engine Build: 0
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.000s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.09.21-14.46.35:485][  0]LogInit: Initializing SDL.
+[2018.09.21-14.46.35:570][  0]LogInit: Initialized SDL 2.0.5 revision: 11184 (hg-11184:04063928c4a8 with EpicExtensions) (compiled against 2.0.5)
+[2018.09.21-14.46.35:570][  0]LogInit: Using SDL_WINDOW_OPENGL
+[2018.09.21-14.46.35:570][  0]LogInit: Using SDL video driver 'x11'
+[2018.09.21-14.46.35:570][  0]LogInit: Display metrics:
+[2018.09.21-14.46.35:570][  0]LogInit:   PrimaryDisplayWidth: 1600
+[2018.09.21-14.46.35:570][  0]LogInit:   PrimaryDisplayHeight: 900
+[2018.09.21-14.46.35:570][  0]LogInit:   PrimaryDisplayWorkAreaRect:
+[2018.09.21-14.46.35:570][  0]LogInit:     Left=0, Top=27, Right=1600, Bottom=900
+[2018.09.21-14.46.35:570][  0]LogInit:   VirtualDisplayRect:
+[2018.09.21-14.46.35:570][  0]LogInit:     Left=0, Top=27, Right=1600, Bottom=900
+[2018.09.21-14.46.35:570][  0]LogInit:   TitleSafePaddingSize: X=0.000 Y=0.000 Z=0.000 W=0.000
+[2018.09.21-14.46.35:570][  0]LogInit:   ActionSafePaddingSize: X=0.000 Y=0.000 Z=0.000 W=0.000
+[2018.09.21-14.46.35:570][  0]LogInit:   Number of monitors: 1
+[2018.09.21-14.46.35:570][  0]LogInit:     Monitor 0
+[2018.09.21-14.46.35:570][  0]LogInit:       Name: XWAYLAND0 18"
+[2018.09.21-14.46.35:570][  0]LogInit:       ID: display0
+[2018.09.21-14.46.35:570][  0]LogInit:       NativeWidth: 1600
+[2018.09.21-14.46.35:570][  0]LogInit:       NativeHeight: 900
+[2018.09.21-14.46.35:570][  0]LogInit:       bIsPrimary: true
+[2018.09.21-14.46.35:571][  0]LogLinux: Selected Device Profile: [Linux]
+[2018.09.21-14.46.35:571][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Linux]
+[2018.09.21-14.46.35:588][  0]LogHAL: Display: Platform has ~ 4 GB [6127525888 / 4294967296 / 6], which maps to Smallest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.09.21-14.46.35:588][  0]LogInit: Going up to parent DeviceProfile []
+[2018.09.21-14.46.35:588][  0]LogInit: Using custom *.sym to symbolicate
+[2018.09.21-14.46.35:588][  0]LogInit: Unix hardware info:
+[2018.09.21-14.46.35:589][  0]LogInit:  - we are not the first instance of this executable
+[2018.09.21-14.46.35:589][  0]LogInit:  - this process' id (pid) is 8155, parent process' id (ppid) is 1567
+[2018.09.21-14.46.35:589][  0]LogInit:  - we are not running under debugger
+[2018.09.21-14.46.35:589][  0]LogInit:  - machine network name is 'localhost.localdomain'
+[2018.09.21-14.46.35:589][  0]LogInit:  - user name is 'john' (john)
+[2018.09.21-14.46.35:589][  0]LogInit:  - we're logged in locally
+[2018.09.21-14.46.35:589][  0]LogInit:  - we're running with rendering
+[2018.09.21-14.46.35:589][  0]LogInit:  - CPU: GenuineIntel 'Intel(R) Core(TM) i3-4010U CPU @ 1.70GHz' (signature: 0x40651)
+[2018.09.21-14.46.35:589][  0]LogInit:  - Number of physical cores available for the process: 2
+[2018.09.21-14.46.35:589][  0]LogInit:  - Number of logical cores available for the process: 4
+[2018.09.21-14.46.35:589][  0]LogInit:  - Cache line size: 64
+[2018.09.21-14.46.35:589][  0]LogInit:  - Memory allocator used: binned2
+[2018.09.21-14.46.35:589][  0]LogCore: Benchmarking clocks:
+[2018.09.21-14.46.35:589][  0]LogCore:  - CLOCK_REALTIME (id=0) can sustain 24787079 (24787K, 25M) calls per second without zero deltas.
+[2018.09.21-14.46.35:589][  0]LogCore:  - CLOCK_MONOTONIC (id=1) can sustain 26194974 (26195K, 26M) calls per second without zero deltas.
+[2018.09.21-14.46.35:589][  0]LogCore:  - CLOCK_MONOTONIC_RAW (id=4) can sustain 1732475 (1732K, 2M) calls per second without zero deltas.
+[2018.09.21-14.46.35:589][  0]LogCore:  - CLOCK_MONOTONIC_COARSE (id=6) can sustain 69961052 (69961K, 70M) calls per second with 99.998556% zero deltas.
+[2018.09.21-14.46.35:589][  0]LogCore: Selected clock_id 1 (CLOCK_MONOTONIC) since it is the fastest support clock without zero deltas.
+[2018.09.21-14.46.35:589][  0]LogInit: Unix-specific commandline switches:
+[2018.09.21-14.46.35:589][  0]LogInit:  -nodwarf (currently OFF): suppress parsing of DWARF debug info (callstacks will be generated faster, but won't have line numbers)
+[2018.09.21-14.46.35:589][  0]LogInit:  -ansimalloc - use malloc()/free() from libc (useful for tools like valgrind and electric fence)
+[2018.09.21-14.46.35:589][  0]LogInit:  -jemalloc - use jemalloc for all memory allocation
+[2018.09.21-14.46.35:589][  0]LogInit:  -binnedmalloc - use binned malloc  for all memory allocation
+[2018.09.21-14.46.35:589][  0]LogInit:  -filemapcachesize=NUMBER - set the size for case-sensitive file mapping cache
+[2018.09.21-14.46.35:589][  0]LogInit:  -httpproxy=ADDRESS:PORT - redirects HTTP requests to a proxy (only supported if compiled with libcurl)
+[2018.09.21-14.46.35:589][  0]LogInit:  -reuseconn - allow libcurl to reuse HTTP connections (only matters if compiled with libcurl)
+[2018.09.21-14.46.35:589][  0]LogInit:  -virtmemkb=NUMBER - sets process virtual memory (address space) limit (overrides VirtualMemoryLimitInKB value from .ini)
+[2018.09.21-14.46.35:590][  0]LogInit:  - Physical RAM available (not considering process quota): 6 GB (5843 MB, 5983912 KB, 6127525888 bytes)
+[2018.09.21-14.46.35:839][  0]LogInit: Using OS detected language (en-IE).
+[2018.09.21-14.46.35:839][  0]LogInit: Using OS detected locale (en-IE).
+[2018.09.21-14.46.35:839][  0]LogTextLocalizationManager: No specific localization for 'en-IE' exists, so the 'en' localization will be used.
+[2018.09.21-14.46.36:651][  0]LogStreaming: Display: Took  0.812s to InitEngineTextLocalization.
+[2018.09.21-14.46.36:763][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.09.21-14.46.36:763][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.09.21-14.46.38:508][  0]LogRHI: Initializing OpenGL RHI
+[2018.09.21-14.46.38:509][  0]LogRHI:   GL_VENDOR: Intel Open Source Technology Center
+[2018.09.21-14.46.38:509][  0]LogRHI:   GL_RENDERER: Mesa DRI Intel(R) Haswell Mobile 
+[2018.09.21-14.46.38:509][  0]LogRHI:   GL_VERSION: 4.5 (Core Profile) Mesa 18.0.5
+[2018.09.21-14.46.38:509][  0]LogRHI:   GL_SHADING_LANGUAGE_VERSION: 4.50
+[2018.09.21-14.46.38:509][  0]LogRHI: OpenGL Extensions:
+[2018.09.21-14.46.38:509][  0]LogRHI:   GL_3DFX_texture_compression_FXT1
+[2018.09.21-14.46.38:509][  0]LogRHI:   GL_AMD_conservative_depth
+[2018.09.21-14.46.38:509][  0]LogRHI:   GL_AMD_draw_buffers_blend
+[2018.09.21-14.46.38:509][  0]LogRHI:   GL_AMD_seamless_cubemap_per_texture
+[2018.09.21-14.46.38:509][  0]LogRHI:   GL_AMD_shader_trinary_minmax
+[2018.09.21-14.46.38:509][  0]LogRHI:   GL_AMD_vertex_shader_layer
+[2018.09.21-14.46.38:509][  0]LogRHI:   GL_AMD_vertex_shader_viewport_index
+[2018.09.21-14.46.38:509][  0]LogRHI:   GL_ANGLE_texture_compression_dxt3
+[2018.09.21-14.46.38:509][  0]LogRHI:   GL_ANGLE_texture_compression_dxt5
+[2018.09.21-14.46.38:509][  0]LogRHI:   GL_APPLE_object_purgeable
+[2018.09.21-14.46.38:509][  0]LogRHI:   GL_ARB_ES2_compatibility
+[2018.09.21-14.46.38:509][  0]LogRHI:   GL_ARB_ES3_1_compatibility
+[2018.09.21-14.46.38:509][  0]LogRHI:   GL_ARB_ES3_compatibility
+[2018.09.21-14.46.38:509][  0]LogRHI:   GL_ARB_arrays_of_arrays
+[2018.09.21-14.46.38:509][  0]LogRHI:   GL_ARB_base_instance
+[2018.09.21-14.46.38:509][  0]LogRHI:   GL_ARB_blend_func_extended
+[2018.09.21-14.46.38:509][  0]LogRHI:   GL_ARB_buffer_storage
+[2018.09.21-14.46.38:509][  0]LogRHI:   GL_ARB_clear_buffer_object
+[2018.09.21-14.46.38:509][  0]LogRHI:   GL_ARB_clear_texture
+[2018.09.21-14.46.38:509][  0]LogRHI:   GL_ARB_clip_control
+[2018.09.21-14.46.38:509][  0]LogRHI:   GL_ARB_compressed_texture_pixel_storage
+[2018.09.21-14.46.38:509][  0]LogRHI:   GL_ARB_compute_shader
+[2018.09.21-14.46.38:509][  0]LogRHI:   GL_ARB_conditional_render_inverted
+[2018.09.21-14.46.38:509][  0]LogRHI:   GL_ARB_conservative_depth
+[2018.09.21-14.46.38:509][  0]LogRHI:   GL_ARB_copy_buffer
+[2018.09.21-14.46.38:509][  0]LogRHI:   GL_ARB_copy_image
+[2018.09.21-14.46.38:509][  0]LogRHI:   GL_ARB_cull_distance
+[2018.09.21-14.46.38:509][  0]LogRHI:   GL_ARB_debug_output
+[2018.09.21-14.46.38:509][  0]LogRHI:   GL_ARB_depth_buffer_float
+[2018.09.21-14.46.38:509][  0]LogRHI:   GL_ARB_depth_clamp
+[2018.09.21-14.46.38:509][  0]LogRHI:   GL_ARB_derivative_control
+[2018.09.21-14.46.38:509][  0]LogRHI:   GL_ARB_direct_state_access
+[2018.09.21-14.46.38:509][  0]LogRHI:   GL_ARB_draw_buffers
+[2018.09.21-14.46.38:510][  0]LogRHI:   GL_ARB_draw_buffers_blend
+[2018.09.21-14.46.38:510][  0]LogRHI:   GL_ARB_draw_elements_base_vertex
+[2018.09.21-14.46.38:510][  0]LogRHI:   GL_ARB_draw_indirect
+[2018.09.21-14.46.38:510][  0]LogRHI:   GL_ARB_draw_instanced
+[2018.09.21-14.46.38:510][  0]LogRHI:   GL_ARB_enhanced_layouts
+[2018.09.21-14.46.38:510][  0]LogRHI:   GL_ARB_explicit_attrib_location
+[2018.09.21-14.46.38:510][  0]LogRHI:   GL_ARB_explicit_uniform_location
+[2018.09.21-14.46.38:510][  0]LogRHI:   GL_ARB_fragment_coord_conventions
+[2018.09.21-14.46.38:510][  0]LogRHI:   GL_ARB_fragment_layer_viewport
+[2018.09.21-14.46.38:510][  0]LogRHI:   GL_ARB_fragment_shader
+[2018.09.21-14.46.38:510][  0]LogRHI:   GL_ARB_framebuffer_no_attachments
+[2018.09.21-14.46.38:510][  0]LogRHI:   GL_ARB_framebuffer_object
+[2018.09.21-14.46.38:510][  0]LogRHI:   GL_ARB_framebuffer_sRGB
+[2018.09.21-14.46.38:510][  0]LogRHI:   GL_ARB_get_program_binary
+[2018.09.21-14.46.38:510][  0]LogRHI:   GL_ARB_get_texture_sub_image
+[2018.09.21-14.46.38:510][  0]LogRHI:   GL_ARB_gpu_shader5
+[2018.09.21-14.46.38:510][  0]LogRHI:   GL_ARB_gpu_shader_fp64
+[2018.09.21-14.46.38:510][  0]LogRHI:   GL_ARB_half_float_pixel
+[2018.09.21-14.46.38:510][  0]LogRHI:   GL_ARB_half_float_vertex
+[2018.09.21-14.46.38:510][  0]LogRHI:   GL_ARB_indirect_parameters
+[2018.09.21-14.46.38:510][  0]LogRHI:   GL_ARB_instanced_arrays
+[2018.09.21-14.46.38:510][  0]LogRHI:   GL_ARB_internalformat_query
+[2018.09.21-14.46.38:510][  0]LogRHI:   GL_ARB_internalformat_query2
+[2018.09.21-14.46.38:510][  0]LogRHI:   GL_ARB_invalidate_subdata
+[2018.09.21-14.46.38:510][  0]LogRHI:   GL_ARB_map_buffer_alignment
+[2018.09.21-14.46.38:510][  0]LogRHI:   GL_ARB_map_buffer_range
+[2018.09.21-14.46.38:510][  0]LogRHI:   GL_ARB_multi_bind
+[2018.09.21-14.46.38:510][  0]LogRHI:   GL_ARB_multi_draw_indirect
+[2018.09.21-14.46.38:510][  0]LogRHI:   GL_ARB_occlusion_query2
+[2018.09.21-14.46.38:510][  0]LogRHI:   GL_ARB_pipeline_statistics_query
+[2018.09.21-14.46.38:510][  0]LogRHI:   GL_ARB_pixel_buffer_object
+[2018.09.21-14.46.38:510][  0]LogRHI:   GL_ARB_point_sprite
+[2018.09.21-14.46.38:510][  0]LogRHI:   GL_ARB_polygon_offset_clamp
+[2018.09.21-14.46.38:510][  0]LogRHI:   GL_ARB_program_interface_query
+[2018.09.21-14.46.38:510][  0]LogRHI:   GL_ARB_provoking_vertex
+[2018.09.21-14.46.38:510][  0]LogRHI:   GL_ARB_query_buffer_object
+[2018.09.21-14.46.38:510][  0]LogRHI:   GL_ARB_robust_buffer_access_behavior
+[2018.09.21-14.46.38:510][  0]LogRHI:   GL_ARB_robustness
+[2018.09.21-14.46.38:510][  0]LogRHI:   GL_ARB_sample_shading
+[2018.09.21-14.46.38:510][  0]LogRHI:   GL_ARB_sampler_objects
+[2018.09.21-14.46.38:510][  0]LogRHI:   GL_ARB_seamless_cube_map
+[2018.09.21-14.46.38:510][  0]LogRHI:   GL_ARB_seamless_cubemap_per_texture
+[2018.09.21-14.46.38:510][  0]LogRHI:   GL_ARB_separate_shader_objects
+[2018.09.21-14.46.38:510][  0]LogRHI:   GL_ARB_shader_atomic_counter_ops
+[2018.09.21-14.46.38:510][  0]LogRHI:   GL_ARB_shader_atomic_counters
+[2018.09.21-14.46.38:510][  0]LogRHI:   GL_ARB_shader_bit_encoding
+[2018.09.21-14.46.38:510][  0]LogRHI:   GL_ARB_shader_clock
+[2018.09.21-14.46.38:510][  0]LogRHI:   GL_ARB_shader_draw_parameters
+[2018.09.21-14.46.38:510][  0]LogRHI:   GL_ARB_shader_group_vote
+[2018.09.21-14.46.38:510][  0]LogRHI:   GL_ARB_shader_image_load_store
+[2018.09.21-14.46.38:511][  0]LogRHI:   GL_ARB_shader_image_size
+[2018.09.21-14.46.38:511][  0]LogRHI:   GL_ARB_shader_objects
+[2018.09.21-14.46.38:511][  0]LogRHI:   GL_ARB_shader_precision
+[2018.09.21-14.46.38:511][  0]LogRHI:   GL_ARB_shader_storage_buffer_object
+[2018.09.21-14.46.38:511][  0]LogRHI:   GL_ARB_shader_subroutine
+[2018.09.21-14.46.38:511][  0]LogRHI:   GL_ARB_shader_texture_image_samples
+[2018.09.21-14.46.38:511][  0]LogRHI:   GL_ARB_shader_texture_lod
+[2018.09.21-14.46.38:511][  0]LogRHI:   GL_ARB_shader_viewport_layer_array
+[2018.09.21-14.46.38:511][  0]LogRHI:   GL_ARB_shading_language_420pack
+[2018.09.21-14.46.38:511][  0]LogRHI:   GL_ARB_shading_language_packing
+[2018.09.21-14.46.38:511][  0]LogRHI:   GL_ARB_stencil_texturing
+[2018.09.21-14.46.38:511][  0]LogRHI:   GL_ARB_sync
+[2018.09.21-14.46.38:511][  0]LogRHI:   GL_ARB_tessellation_shader
+[2018.09.21-14.46.38:511][  0]LogRHI:   GL_ARB_texture_barrier
+[2018.09.21-14.46.38:511][  0]LogRHI:   GL_ARB_texture_buffer_object
+[2018.09.21-14.46.38:511][  0]LogRHI:   GL_ARB_texture_buffer_object_rgb32
+[2018.09.21-14.46.38:511][  0]LogRHI:   GL_ARB_texture_buffer_range
+[2018.09.21-14.46.38:511][  0]LogRHI:   GL_ARB_texture_compression_bptc
+[2018.09.21-14.46.38:511][  0]LogRHI:   GL_ARB_texture_compression_rgtc
+[2018.09.21-14.46.38:511][  0]LogRHI:   GL_ARB_texture_cube_map_array
+[2018.09.21-14.46.38:511][  0]LogRHI:   GL_ARB_texture_filter_anisotropic
+[2018.09.21-14.46.38:511][  0]LogRHI:   GL_ARB_texture_float
+[2018.09.21-14.46.38:511][  0]LogRHI:   GL_ARB_texture_gather
+[2018.09.21-14.46.38:511][  0]LogRHI:   GL_ARB_texture_mirror_clamp_to_edge
+[2018.09.21-14.46.38:511][  0]LogRHI:   GL_ARB_texture_multisample
+[2018.09.21-14.46.38:511][  0]LogRHI:   GL_ARB_texture_non_power_of_two
+[2018.09.21-14.46.38:511][  0]LogRHI:   GL_ARB_texture_query_levels
+[2018.09.21-14.46.38:511][  0]LogRHI:   GL_ARB_texture_query_lod
+[2018.09.21-14.46.38:511][  0]LogRHI:   GL_ARB_texture_rectangle
+[2018.09.21-14.46.38:511][  0]LogRHI:   GL_ARB_texture_rg
+[2018.09.21-14.46.38:511][  0]LogRHI:   GL_ARB_texture_rgb10_a2ui
+[2018.09.21-14.46.38:511][  0]LogRHI:   GL_ARB_texture_stencil8
+[2018.09.21-14.46.38:511][  0]LogRHI:   GL_ARB_texture_storage
+[2018.09.21-14.46.38:511][  0]LogRHI:   GL_ARB_texture_storage_multisample
+[2018.09.21-14.46.38:511][  0]LogRHI:   GL_ARB_texture_swizzle
+[2018.09.21-14.46.38:511][  0]LogRHI:   GL_ARB_texture_view
+[2018.09.21-14.46.38:511][  0]LogRHI:   GL_ARB_timer_query
+[2018.09.21-14.46.38:511][  0]LogRHI:   GL_ARB_transform_feedback2
+[2018.09.21-14.46.38:511][  0]LogRHI:   GL_ARB_transform_feedback3
+[2018.09.21-14.46.38:511][  0]LogRHI:   GL_ARB_transform_feedback_instanced
+[2018.09.21-14.46.38:511][  0]LogRHI:   GL_ARB_transform_feedback_overflow_query
+[2018.09.21-14.46.38:511][  0]LogRHI:   GL_ARB_uniform_buffer_object
+[2018.09.21-14.46.38:511][  0]LogRHI:   GL_ARB_vertex_array_bgra
+[2018.09.21-14.46.38:511][  0]LogRHI:   GL_ARB_vertex_array_object
+[2018.09.21-14.46.38:511][  0]LogRHI:   GL_ARB_vertex_attrib_64bit
+[2018.09.21-14.46.38:511][  0]LogRHI:   GL_ARB_vertex_attrib_binding
+[2018.09.21-14.46.38:511][  0]LogRHI:   GL_ARB_vertex_shader
+[2018.09.21-14.46.38:511][  0]LogRHI:   GL_ARB_vertex_type_10f_11f_11f_rev
+[2018.09.21-14.46.38:511][  0]LogRHI:   GL_ARB_vertex_type_2_10_10_10_rev
+[2018.09.21-14.46.38:511][  0]LogRHI:   GL_ARB_viewport_array
+[2018.09.21-14.46.38:512][  0]LogRHI:   GL_ATI_blend_equation_separate
+[2018.09.21-14.46.38:512][  0]LogRHI:   GL_ATI_texture_float
+[2018.09.21-14.46.38:512][  0]LogRHI:   GL_EXT_abgr
+[2018.09.21-14.46.38:512][  0]LogRHI:   GL_EXT_blend_equation_separate
+[2018.09.21-14.46.38:512][  0]LogRHI:   GL_EXT_draw_buffers2
+[2018.09.21-14.46.38:512][  0]LogRHI:   GL_EXT_draw_instanced
+[2018.09.21-14.46.38:512][  0]LogRHI:   GL_EXT_framebuffer_blit
+[2018.09.21-14.46.38:512][  0]LogRHI:   GL_EXT_framebuffer_multisample
+[2018.09.21-14.46.38:512][  0]LogRHI:   GL_EXT_framebuffer_multisample_blit_scaled
+[2018.09.21-14.46.38:512][  0]LogRHI:   GL_EXT_framebuffer_sRGB
+[2018.09.21-14.46.38:512][  0]LogRHI:   GL_EXT_packed_depth_stencil
+[2018.09.21-14.46.38:512][  0]LogRHI:   GL_EXT_packed_float
+[2018.09.21-14.46.38:512][  0]LogRHI:   GL_EXT_pixel_buffer_object
+[2018.09.21-14.46.38:512][  0]LogRHI:   GL_EXT_polygon_offset_clamp
+[2018.09.21-14.46.38:512][  0]LogRHI:   GL_EXT_provoking_vertex
+[2018.09.21-14.46.38:512][  0]LogRHI:   GL_EXT_shader_integer_mix
+[2018.09.21-14.46.38:512][  0]LogRHI:   GL_EXT_shader_samples_identical
+[2018.09.21-14.46.38:512][  0]LogRHI:   GL_EXT_texture_array
+[2018.09.21-14.46.38:512][  0]LogRHI:   GL_EXT_texture_compression_dxt1
+[2018.09.21-14.46.38:512][  0]LogRHI:   GL_EXT_texture_compression_rgtc
+[2018.09.21-14.46.38:512][  0]LogRHI:   GL_EXT_texture_compression_s3tc
+[2018.09.21-14.46.38:512][  0]LogRHI:   GL_EXT_texture_filter_anisotropic
+[2018.09.21-14.46.38:512][  0]LogRHI:   GL_EXT_texture_integer
+[2018.09.21-14.46.38:512][  0]LogRHI:   GL_EXT_texture_sRGB
+[2018.09.21-14.46.38:512][  0]LogRHI:   GL_EXT_texture_sRGB_decode
+[2018.09.21-14.46.38:512][  0]LogRHI:   GL_EXT_texture_shared_exponent
+[2018.09.21-14.46.38:512][  0]LogRHI:   GL_EXT_texture_snorm
+[2018.09.21-14.46.38:512][  0]LogRHI:   GL_EXT_texture_swizzle
+[2018.09.21-14.46.38:512][  0]LogRHI:   GL_EXT_timer_query
+[2018.09.21-14.46.38:512][  0]LogRHI:   GL_EXT_transform_feedback
+[2018.09.21-14.46.38:512][  0]LogRHI:   GL_EXT_vertex_array_bgra
+[2018.09.21-14.46.38:512][  0]LogRHI:   GL_IBM_multimode_draw_arrays
+[2018.09.21-14.46.38:512][  0]LogRHI:   GL_INTEL_performance_query
+[2018.09.21-14.46.38:512][  0]LogRHI:   GL_KHR_blend_equation_advanced
+[2018.09.21-14.46.38:512][  0]LogRHI:   GL_KHR_context_flush_control
+[2018.09.21-14.46.38:512][  0]LogRHI:   GL_KHR_debug
+[2018.09.21-14.46.38:512][  0]LogRHI:   GL_KHR_no_error
+[2018.09.21-14.46.38:512][  0]LogRHI:   GL_KHR_robust_buffer_access_behavior
+[2018.09.21-14.46.38:512][  0]LogRHI:   GL_KHR_robustness
+[2018.09.21-14.46.38:512][  0]LogRHI:   GL_MESA_pack_invert
+[2018.09.21-14.46.38:512][  0]LogRHI:   GL_MESA_shader_integer_functions
+[2018.09.21-14.46.38:513][  0]LogRHI:   GL_MESA_texture_signed_rgba
+[2018.09.21-14.46.38:513][  0]LogRHI:   GL_NV_conditional_render
+[2018.09.21-14.46.38:513][  0]LogRHI:   GL_NV_depth_clamp
+[2018.09.21-14.46.38:513][  0]LogRHI:   GL_NV_packed_depth_stencil
+[2018.09.21-14.46.38:513][  0]LogRHI:   GL_NV_texture_barrier
+[2018.09.21-14.46.38:513][  0]LogRHI:   GL_OES_EGL_image
+[2018.09.21-14.46.38:513][  0]LogRHI:   GL_S3_s3tc
+[2018.09.21-14.46.38:543][  0]LogRHI:   GL_MAX_TEXTURE_SIZE: 16384
+[2018.09.21-14.46.38:543][  0]LogRHI:   GL_MAX_CUBE_MAP_TEXTURE_SIZE: 16384
+[2018.09.21-14.46.38:543][  0]LogRHI:   GL_MAX_ARRAY_TEXTURE_LAYERS: 2048
+[2018.09.21-14.46.38:543][  0]LogRHI:   GL_MAX_3D_TEXTURE_SIZE: 2048
+[2018.09.21-14.46.38:543][  0]LogRHI:   GL_MAX_RENDERBUFFER_SIZE: 16384
+[2018.09.21-14.46.38:543][  0]LogRHI:   GL_MAX_TEXTURE_IMAGE_UNITS: 32
+[2018.09.21-14.46.38:543][  0]LogRHI:   GL_MAX_DRAW_BUFFERS: 8
+[2018.09.21-14.46.38:543][  0]LogRHI:   GL_MAX_COLOR_ATTACHMENTS: 8
+[2018.09.21-14.46.38:543][  0]LogRHI:   GL_MAX_SAMPLES: 8
+[2018.09.21-14.46.38:543][  0]LogRHI:   GL_MAX_COLOR_TEXTURE_SAMPLES: 8
+[2018.09.21-14.46.38:543][  0]LogRHI:   GL_MAX_DEPTH_TEXTURE_SAMPLES: 8
+[2018.09.21-14.46.38:543][  0]LogRHI:   GL_MAX_INTEGER_SAMPLES: 8
+[2018.09.21-14.46.38:543][  0]LogRHI:   GL_MAX_COMBINED_TEXTURE_IMAGE_UNITS: 192
+[2018.09.21-14.46.38:543][  0]LogRHI:   GL_MAX_VERTEX_ATTRIBS: 16
+[2018.09.21-14.46.38:543][  0]LogRHI:   GL_MAX_TEXTURE_MAX_ANISOTROPY_EXT: 16
+[2018.09.21-14.46.38:543][  0]LogRHI: OpenGL MajorVersion = 4, MinorVersion = 5, ShaderPlatform = GLSL_430, FeatureLevel = SM5
+[2018.09.21-14.46.38:562][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../Documents/Projects/CaveTree/Intermediate/Shaders/WorkingDirectory/8155/).
+[2018.09.21-14.46.38:563][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../Documents/Projects/CaveTree/Intermediate/Shaders/tmp/0004D4A208D61FD96B276AF8D5D064D7/'.
+[2018.09.21-14.46.38:563][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.09.21-14.46.41:863][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.09.21-14.46.42:089][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.09.21-14.46.42:316][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.09.21-14.46.42:543][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.09.21-14.46.42:755][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.09.21-14.46.42:977][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.09.21-14.46.43:299][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.21-14.46.43:299][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.21-14.46.43:299][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.21-14.46.43:299][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.21-14.46.43:300][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.21-14.46.43:300][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.21-14.46.43:300][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.21-14.46.43:300][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.21-14.46.43:300][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.21-14.46.43:300][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.21-14.46.43:300][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.21-14.46.43:300][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.21-14.46.43:300][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.21-14.46.43:300][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.21-14.46.43:300][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.21-14.46.43:300][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.21-14.46.43:300][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.21-14.46.43:300][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.21-14.46.43:316][  0]LogTargetPlatformManager: Display: Building Assets For Linux
+[2018.09.21-14.46.44:072][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.09.21-14.46.44:302][  0]LogDerivedDataCache: Loaded boot cache 0.23s 84MB ../../../../../Documents/Projects/CaveTree/DerivedDataCache/Boot.ddc.
+[2018.09.21-14.46.44:302][  0]LogDerivedDataCache: Display: Loaded Boot cache: ../../../../../Documents/Projects/CaveTree/DerivedDataCache/Boot.ddc
+[2018.09.21-14.46.44:303][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Documents/Projects/CaveTree/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.09.21-14.46.44:303][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.09.21-14.46.44:303][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnginePak pak cache file ../../../Engine/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.09.21-14.46.44:303][  0]LogDerivedDataCache: Unable to find inner node EnginePak for hierarchical cache Hierarchy.
+[2018.09.21-14.46.44:304][  0]LogDerivedDataCache: Using Local data cache path ../../../Engine/DerivedDataCache: Writable
+[2018.09.21-14.46.44:304][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.09.21-14.46.44:304][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.09.21-14.46.44:355][  0]LogMaterial: Verifying Global Shaders for GLSL_430
+[2018.09.21-14.46.44:373][  0]LogSlate: Using FreeType 2.6.0
+[2018.09.21-14.46.44:376][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 0
+[2018.09.21-14.46.44:591][  0]LogAssetRegistry: FAssetRegistry took 0.0055 seconds to start up
+[2018.09.21-14.46.45:204][  0]LogLinux: Selected Device Profile: [Linux]
+[2018.09.21-14.46.46:078][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.09.21-14.46.46:078][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.09.21-14.46.46:078][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.09.21-14.46.46:078][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2018.09.21-14.46.46:078][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.09.21-14.46.46:078][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2018.09.21-14.46.46:119][  0]LogNetVersion: CaveTree 1.0.0, NetCL: 0, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1206919045)
+[2018.09.21-14.46.47:490][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.080179 seconds
+[2018.09.21-14.46.47:500][  0]LogUObjectArray: 37547 objects as part of root set at end of initial load.
+[2018.09.21-14.46.47:500][  0]LogUObjectAllocator: 6509480 out of 0 bytes used by permanent object pool.
+[2018.09.21-14.46.47:500][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.09.21-14.46.47:843][  0]LogHAL: Linux SourceCodeAccessSettings: NullSourceCodeAccessor
+[2018.09.21-14.46.49:871][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png' error.
+[2018.09.21-14.46.49:871][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png
+[2018.09.21-14.46.49:871][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2018.09.21-14.46.49:871][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2018.09.21-14.46.49:871][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2018.09.21-14.46.49:872][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2018.09.21-14.46.49:872][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png' error.
+[2018.09.21-14.46.49:872][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png
+[2018.09.21-14.46.49:872][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2018.09.21-14.46.49:872][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2018.09.21-14.46.49:873][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2018.09.21-14.46.49:873][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2018.09.21-14.46.49:873][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png' error.
+[2018.09.21-14.46.49:873][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png
+[2018.09.21-14.46.49:874][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2018.09.21-14.46.49:874][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2018.09.21-14.46.49:874][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2018.09.21-14.46.49:874][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2018.09.21-14.46.49:875][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png' error.
+[2018.09.21-14.46.49:875][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png
+[2018.09.21-14.46.49:875][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2018.09.21-14.46.49:875][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2018.09.21-14.46.49:876][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2018.09.21-14.46.49:876][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2018.09.21-14.46.49:883][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png' error.
+[2018.09.21-14.46.49:883][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png
+[2018.09.21-14.46.49:883][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.09.21-14.46.49:883][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.09.21-14.46.49:884][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.09.21-14.46.49:884][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.09.21-14.46.49:885][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png' error.
+[2018.09.21-14.46.49:885][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png
+[2018.09.21-14.46.49:886][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.09.21-14.46.49:886][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.09.21-14.46.49:886][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.09.21-14.46.49:886][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.09.21-14.46.49:887][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ATC_24x.png' error.
+[2018.09.21-14.46.49:887][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ATC_24x.png
+[2018.09.21-14.46.49:887][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.09.21-14.46.49:887][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.09.21-14.46.49:887][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.09.21-14.46.49:887][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.09.21-14.46.49:888][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_DXT_24x.png' error.
+[2018.09.21-14.46.49:888][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_DXT_24x.png
+[2018.09.21-14.46.49:888][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.09.21-14.46.49:888][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.09.21-14.46.49:889][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.09.21-14.46.49:889][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.09.21-14.46.49:889][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png' error.
+[2018.09.21-14.46.49:889][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png
+[2018.09.21-14.46.49:889][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.09.21-14.46.49:889][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.09.21-14.46.49:890][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.09.21-14.46.49:890][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.09.21-14.46.49:891][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png' error.
+[2018.09.21-14.46.49:891][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png
+[2018.09.21-14.46.49:891][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.09.21-14.46.49:891][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.09.21-14.46.49:892][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.09.21-14.46.49:892][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.09.21-14.46.49:893][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC2_24x.png' error.
+[2018.09.21-14.46.49:893][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC2_24x.png
+[2018.09.21-14.46.49:894][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.09.21-14.46.49:894][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.09.21-14.46.49:894][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.09.21-14.46.49:894][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.09.21-14.46.49:895][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_PVRTC_24x.png' error.
+[2018.09.21-14.46.49:895][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_PVRTC_24x.png
+[2018.09.21-14.46.49:895][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.09.21-14.46.49:895][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.09.21-14.46.49:896][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.09.21-14.46.49:896][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.09.21-14.46.49:897][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ASTC_24x.png' error.
+[2018.09.21-14.46.49:897][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ASTC_24x.png
+[2018.09.21-14.46.49:898][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.09.21-14.46.49:898][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.09.21-14.46.49:898][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.09.21-14.46.49:898][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.09.21-14.46.49:899][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png' error.
+[2018.09.21-14.46.49:899][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png
+[2018.09.21-14.46.49:900][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.09.21-14.46.49:900][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.09.21-14.46.49:900][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.09.21-14.46.49:900][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.09.21-14.46.49:901][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png' error.
+[2018.09.21-14.46.49:901][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png
+[2018.09.21-14.46.49:902][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.09.21-14.46.49:902][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.09.21-14.46.49:902][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.09.21-14.46.49:902][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.09.21-14.46.49:903][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ATC_24x.png' error.
+[2018.09.21-14.46.49:903][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ATC_24x.png
+[2018.09.21-14.46.49:904][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.09.21-14.46.49:904][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.09.21-14.46.49:904][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.09.21-14.46.49:904][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.09.21-14.46.49:905][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_DXT_24x.png' error.
+[2018.09.21-14.46.49:905][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_DXT_24x.png
+[2018.09.21-14.46.49:905][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.09.21-14.46.49:905][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.09.21-14.46.49:905][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.09.21-14.46.49:905][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.09.21-14.46.49:906][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png' error.
+[2018.09.21-14.46.49:906][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png
+[2018.09.21-14.46.49:906][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.09.21-14.46.49:906][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.09.21-14.46.49:907][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.09.21-14.46.49:907][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.09.21-14.46.49:907][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png' error.
+[2018.09.21-14.46.49:907][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png
+[2018.09.21-14.46.49:908][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.09.21-14.46.49:908][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.09.21-14.46.49:908][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.09.21-14.46.49:908][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.09.21-14.46.49:909][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC2_24x.png' error.
+[2018.09.21-14.46.49:909][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC2_24x.png
+[2018.09.21-14.46.49:909][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.09.21-14.46.49:909][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.09.21-14.46.49:910][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.09.21-14.46.49:910][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.09.21-14.46.49:910][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_PVRTC_24x.png' error.
+[2018.09.21-14.46.49:911][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_PVRTC_24x.png
+[2018.09.21-14.46.49:911][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.09.21-14.46.49:911][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.09.21-14.46.49:912][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.09.21-14.46.49:912][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.09.21-14.46.49:912][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ASTC_24x.png' error.
+[2018.09.21-14.46.49:912][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ASTC_24x.png
+[2018.09.21-14.46.49:913][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.09.21-14.46.49:913][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.09.21-14.46.49:913][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.09.21-14.46.49:913][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.09.21-14.46.53:558][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.09.21-14.46.53:565][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.09.21-14.47.01:507][  0]SourceControl: Source control is disabled
+[2018.09.21-14.47.01:507][  0]SourceControl: Source control is disabled
+[2018.09.21-14.47.01:734][  0]SourceControl: Source control is disabled
+[2018.09.21-14.47.10:168][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.09.21-14.47.12:752][  0]LogEngine: Initializing Engine...
+[2018.09.21-14.47.12:753][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.09.21-14.47.12:755][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.09.21-14.47.12:755][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.09.21-14.47.12:755][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.09.21-14.47.12:755][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.09.21-14.47.13:440][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.09.21-14.47.14:149][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.09.21-14.47.14:168][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2018.09.21-14.47.14:168][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2018.09.21-14.47.14:168][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2018.09.21-14.47.14:168][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2018.09.21-14.47.14:168][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2018.09.21-14.47.14:168][  0]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2018.09.21-14.47.14:168][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2018.09.21-14.47.14:169][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2018.09.21-14.47.14:200][  0]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2018.09.21-14.47.14:325][  0]LogInit: FAudioDevice initialized.
+[2018.09.21-14.47.14:326][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.09.21-14.47.14:415][  0]LogDerivedDataCache: Saved boot cache 0.09s 84MB ../../../../../Documents/Projects/CaveTree/DerivedDataCache/Boot.ddc.
+[2018.09.21-14.47.14:436][  0]LogInit: Texture streaming: Enabled
+[2018.09.21-14.47.14:614][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.09.21-14.47.15:285][  0]LogInit: Transaction tracking system initialized
+[2018.09.21-14.47.16:564][  0]BlueprintLog: New page: Editor Load
+[2018.09.21-14.47.20:334][  0]LocalizationService: Localization service is disabled
+[2018.09.21-14.47.21:601][  0]LogLinker: Warning: Can't find file '/Game/TwinStickBP/TwinStickOverview'
+[2018.09.21-14.47.21:601][  0]LogLinker: Warning: Can't find file '/Game/TwinStickBP/TwinStickOverview'
+[2018.09.21-14.47.21:601][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/TwinStickBP/TwinStickOverview.TwinStickOverview_C'
+[2018.09.21-14.47.23:594][  0]LogFileCache: Scanning file cache for directory '/home/john/Documents/Projects/CaveTree/Content/' took 0.00s
+[2018.09.21-14.47.23:594][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.09.21-14.47.23:594][  0]LogCook: Display: Mobile HDR setting 1
+[2018.09.21-14.47.23:594][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.09.21-14.47.23:594][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.09.21-14.47.23:594][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.09.21-14.47.23:595][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.09.21-14.47.23:595][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.09.21-14.47.28:312][  0]Cmd: MAP LOAD FILE="../../../../../Documents/Projects/CaveTree/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.09.21-14.47.28:329][  0]LightingResults: New page: Lighting Build
+[2018.09.21-14.47.28:483][  0]MapCheck: New page: Map Check
+[2018.09.21-14.47.28:484][  0]LightingResults: New page: Lighting Build
+[2018.09.21-14.47.29:329][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.09.21-14.47.29:370][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.09.21-14.47.29:498][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.09.21-14.47.29:545][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 47.137ms to complete.
+[2018.09.21-14.47.29:545][  0]LogFileHelpers: Loading map 'Minimal_Default' took 1.233
+[2018.09.21-14.47.29:560][  0]LogLinux: Scale at X=0.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.47.29:561][  0]LogLinux: Scale at X=800.000000, Y=463.500000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.47.29:605][  0]LogLinux: Scale at X=0.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.47.29:666][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.21-14.47.29:685][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.21-14.47.29:706][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.21-14.47.29:723][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.21-14.47.29:747][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.21-14.47.29:767][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.21-14.47.29:782][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.21-14.47.29:801][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.21-14.47.29:815][  0]LogCollectionManager: Loaded 0 collections in 0.004307 seconds
+[2018.09.21-14.47.29:838][  0]LogFileCache: Scanning file cache for directory '/home/john/Documents/Projects/CaveTree/Saved/Collections/' took 0.00s
+[2018.09.21-14.47.29:838][  0]LogFileCache: Scanning file cache for directory '/home/john/Documents/Projects/CaveTree/Content/Developers/john/Collections/' took 0.00s
+[2018.09.21-14.47.29:838][  0]LogFileCache: Scanning file cache for directory '/home/john/Documents/Projects/CaveTree/Content/Collections/' took 0.00s
+[2018.09.21-14.47.29:838][  0]LogContentBrowser: Native class hierarchy populated in 0.0182 seconds. Added 2545 classes and 566 folders.
+[2018.09.21-14.47.29:842][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2018.09.21-14.47.30:194][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.09.21-14.47.30:256][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.09.21-14.47.30:448][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2018.09.21-14.47.30:673][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.09.21-14.47.30:673][  0]LogLoad: (Engine Initialization) Total time: 59.19 seconds
+[2018.09.21-14.47.30:673][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.09.21-14.47.30:691][  0]LogSlate: Took 0.000249 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.09.21-14.47.30:701][  0]LogSlate: Took 0.000247 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.09.21-14.47.30:727][  0]LogSlate: Took 0.000192 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.09.21-14.47.30:931][  0]LogRenderer: Reallocating scene render targets to support 1044x228 Format 9 NumSamples 1 (Frame:1).
+[2018.09.21-14.47.35:825][  0]LogInit: Adding external input plugin.
+[2018.09.21-14.47.35:858][  0]LogContentStreaming: Texture pool size now 600 MB
+[2018.09.21-14.47.36:699][  0]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.21-14.47.36:722][  0]LogSlate: Took 0.000150 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.09.21-14.47.36:798][  2]LogAssetRegistry: Asset discovery search completed in 52.2070 seconds
+[2018.09.21-14.47.36:801][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.09.21-14.47.36:801][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000136 seconds (updated 0 objects)
+[2018.09.21-14.48.02:887][197]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.48.03:806][200]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.21-14.48.04:043][200]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.21-14.48.45:035][519]LogLinux: Scale at X=283.000000, Y=425.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.48.45:077][521]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.21-14.48.46:112][594]LogLinux: Scale at X=481.500000, Y=584.500000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.48.46:144][595]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.21-14.49.38:595][494]LogLinux: Scale at X=0.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.38:595][494]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.38:597][494]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.38:621][494]LogSlate: Took 0.000116 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.09.21-14.49.38:637][494]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.21-14.49.38:650][494]LogLinux: Scale at X=0.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.38:651][494]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.38:651][494]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.38:690][494]LogAssetTools: Warning: Failed to import '/home/john/Downloads/LuosFreeRocksCaves/LuosFreeCaves/Content/LuosCaves/Materials/M_LCave_Master.uasset'. Unknown extension 'uasset'.
+[2018.09.21-14.49.38:704][494]LogLinux: Scale at X=0.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.38:704][494]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.38:704][494]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.38:742][494]LogAssetTools: Warning: Failed to import '/home/john/Downloads/LuosFreeRocksCaves/LuosFreeCaves/Content/LuosCaves/Materials/Cave_Prop_Instances/Free_Moss_Brown01/MI_CProp_Free_MossBrown01.uasset'. Unknown extension 'uasset'.
+[2018.09.21-14.49.38:756][494]LogLinux: Scale at X=0.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.38:757][494]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.38:758][494]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.38:807][494]LogAssetTools: Warning: Failed to import '/home/john/Downloads/LuosFreeRocksCaves/LuosFreeCaves/Content/LuosCaves/Materials/Extra_Masters/MI_emissive_Mushrooms_Blue.uasset'. Unknown extension 'uasset'.
+[2018.09.21-14.49.38:832][494]LogLinux: Scale at X=0.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.38:833][494]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.38:833][494]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.38:873][494]LogAssetTools: Warning: Failed to import '/home/john/Downloads/LuosFreeRocksCaves/LuosFreeCaves/Content/LuosCaves/Materials/Extra_Masters/M_emissive_Mushrooms_01.uasset'. Unknown extension 'uasset'.
+[2018.09.21-14.49.38:889][494]LogLinux: Scale at X=0.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.38:890][494]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.38:895][494]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.21-14.49.38:895][494]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.38:932][494]LogAssetTools: Warning: Failed to import '/home/john/Downloads/LuosFreeRocksCaves/LuosFreeCaves/Content/LuosCaves/Materials/Modular_Cave_Instances/Free_Moss_Brown01/MI_MCave_Free_MossBrown01.uasset'. Unknown extension 'uasset'.
+[2018.09.21-14.49.38:950][494]LogLinux: Scale at X=0.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.38:950][494]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.38:950][494]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.38:993][494]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.21-14.49.38:999][494]LogAssetTools: Warning: Failed to import '/home/john/Downloads/LuosFreeRocksCaves/LuosFreeCaves/Content/LuosCaves/Materials/Modular_Cave_Instances/Free_Moss_Brown01/MII_MCave_Free_MossBrown01_NoGreen.uasset'. Unknown extension 'uasset'.
+[2018.09.21-14.49.39:015][494]LogLinux: Scale at X=0.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.39:015][494]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.39:015][494]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.39:065][494]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.21-14.49.39:065][494]LogAssetTools: Warning: Failed to import '/home/john/Downloads/LuosFreeRocksCaves/LuosFreeCaves/Content/LuosCaves/Materials/Modular_Cave_Instances/Free_Moss_Brown01/MII_MCave_Free_MossBrown01_SeamCover_HQ.uasset'. Unknown extension 'uasset'.
+[2018.09.21-14.49.39:080][494]LogLinux: Scale at X=0.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.39:081][494]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.39:081][494]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.39:131][494]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.21-14.49.39:131][494]LogAssetTools: Warning: Failed to import '/home/john/Downloads/LuosFreeRocksCaves/LuosFreeCaves/Content/LuosCaves/Materials/Modular_Cave_Instances/Free_Moss_Brown01/MII_MCave_Free_MossBrown01_SeamCover_LQ.uasset'. Unknown extension 'uasset'.
+[2018.09.21-14.49.39:161][494]LogLinux: Scale at X=0.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.39:161][494]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.39:161][494]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.39:207][494]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.21-14.49.39:214][494]LogAssetTools: Warning: Failed to import '/home/john/Downloads/LuosFreeRocksCaves/LuosFreeCaves/Content/LuosCaves/Materials/Extra_Prop_Instances/MI_emissive_Mushrooms_Red.uasset'. Unknown extension 'uasset'.
+[2018.09.21-14.49.39:241][494]LogLinux: Scale at X=0.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.39:241][494]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.39:241][494]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.39:294][494]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.21-14.49.39:299][494]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.21-14.49.39:304][494]LogAssetTools: Warning: Failed to import '/home/john/Downloads/LuosFreeRocksCaves/LuosFreeCaves/Content/LuosCaves/Materials/Extra_Prop_Instances/MI_emissive_Mushrooms_Green.uasset'. Unknown extension 'uasset'.
+[2018.09.21-14.49.39:336][494]LogLinux: Scale at X=0.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.39:336][494]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.39:336][494]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.39:372][494]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.21-14.49.39:379][494]LogAssetTools: Warning: Failed to import '/home/john/Downloads/LuosFreeRocksCaves/LuosFreeCaves/Content/LuosCaves/Materials/Extra_Prop_Instances/MI_emissive_Mushrooms_Blue.uasset'. Unknown extension 'uasset'.
+[2018.09.21-14.49.39:422][494]LogLinux: Scale at X=0.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.39:422][494]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.39:422][494]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.39:455][494]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.21-14.49.39:464][494]LogAssetTools: Warning: Failed to import '/home/john/Downloads/LuosFreeRocksCaves/LuosFreeCaves/Content/LuosCaves/Materials/Extra_Prop_Instances/MI_emissive_Mushrooms_Purple.uasset'. Unknown extension 'uasset'.
+[2018.09.21-14.49.39:497][494]LogLinux: Scale at X=0.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.39:497][494]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.39:497][494]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.39:552][494]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.21-14.49.39:553][494]LogAssetTools: Warning: Failed to import '/home/john/Downloads/LuosFreeRocksCaves/LuosFreeCaves/Content/LuosCaves/Materials/Extra_Prop_Instances/MI_emissive_Mushrooms_Yellow.uasset'. Unknown extension 'uasset'.
+[2018.09.21-14.49.39:603][494]LogLinux: Scale at X=0.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.39:604][494]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.39:604][494]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.39:660][494]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.21-14.49.39:668][494]LogAssetTools: Warning: Failed to import '/home/john/Downloads/LuosFreeRocksCaves/LuosFreeCaves/Content/LuosCaves/Materials/Floor_Instances/MI_Floor_MossBrown_01.uasset'. Unknown extension 'uasset'.
+[2018.09.21-14.49.39:708][494]LogLinux: Scale at X=0.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.39:708][494]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.39:708][494]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.39:757][494]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.21-14.49.39:765][494]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.21-14.49.39:765][494]LogAssetTools: Warning: Failed to import '/home/john/Downloads/LuosFreeRocksCaves/LuosFreeCaves/Content/LuosCaves/Mat_functions/MF_Aligned_Cave_Texture.uasset'. Unknown extension 'uasset'.
+[2018.09.21-14.49.39:808][494]LogLinux: Scale at X=0.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.39:808][494]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.39:808][494]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.39:864][494]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.21-14.49.39:865][494]LogAssetTools: Warning: Failed to import '/home/john/Downloads/LuosFreeRocksCaves/LuosFreeCaves/Content/LuosCaves/Meshes/Caves_Tsections/SM_LCave_Free_CRT_01.uasset'. Unknown extension 'uasset'.
+[2018.09.21-14.49.39:899][494]LogLinux: Scale at X=0.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.39:900][494]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.39:900][494]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.39:947][494]LogAssetTools: Warning: Failed to import '/home/john/Downloads/LuosFreeRocksCaves/LuosFreeCaves/Content/LuosCaves/Meshes/Caves_ISections/SM_LCave_Free_CHI_01.uasset'. Unknown extension 'uasset'.
+[2018.09.21-14.49.39:983][494]LogLinux: Scale at X=0.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.39:984][494]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.39:984][494]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.40:025][494]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.21-14.49.40:032][494]LogAssetTools: Warning: Failed to import '/home/john/Downloads/LuosFreeRocksCaves/LuosFreeCaves/Content/LuosCaves/Meshes/Props_Mushrooms/SM_LProp_Free_LightMushroom_06.uasset'. Unknown extension 'uasset'.
+[2018.09.21-14.49.40:060][494]LogLinux: Scale at X=0.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.40:061][494]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.40:061][494]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.40:108][494]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.21-14.49.40:115][494]LogAssetTools: Warning: Failed to import '/home/john/Downloads/LuosFreeRocksCaves/LuosFreeCaves/Content/LuosCaves/Meshes/Props_Mushrooms/SM_LProp_Free_LightMushroom_01.uasset'. Unknown extension 'uasset'.
+[2018.09.21-14.49.40:147][494]LogLinux: Scale at X=0.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.40:147][494]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.40:147][494]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.40:192][494]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.21-14.49.40:202][494]LogAssetTools: Warning: Failed to import '/home/john/Downloads/LuosFreeRocksCaves/LuosFreeCaves/Content/LuosCaves/Meshes/Props_Mushrooms/SM_LProp_Free_LightMushroom_05.uasset'. Unknown extension 'uasset'.
+[2018.09.21-14.49.40:232][494]LogLinux: Scale at X=0.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.40:232][494]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.40:232][494]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.40:301][494]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.21-14.49.40:301][494]LogAssetTools: Warning: Failed to import '/home/john/Downloads/LuosFreeRocksCaves/LuosFreeCaves/Content/LuosCaves/Meshes/Props_Mushrooms/SM_LProp_Free_LightMushroom_08.uasset'. Unknown extension 'uasset'.
+[2018.09.21-14.49.40:333][494]LogLinux: Scale at X=0.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.40:333][494]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.40:333][494]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.40:391][494]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.21-14.49.40:398][494]LogAssetTools: Warning: Failed to import '/home/john/Downloads/LuosFreeRocksCaves/LuosFreeCaves/Content/LuosCaves/Meshes/Props_Mushrooms/SM_LProp_Free_LightMushroom_03.uasset'. Unknown extension 'uasset'.
+[2018.09.21-14.49.40:431][494]LogLinux: Scale at X=0.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.40:432][494]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.40:432][494]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.40:481][494]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.21-14.49.40:486][494]LogAssetTools: Warning: Failed to import '/home/john/Downloads/LuosFreeRocksCaves/LuosFreeCaves/Content/LuosCaves/Meshes/Props_Mushrooms/SM_LProp_Free_LightMushroom_02.uasset'. Unknown extension 'uasset'.
+[2018.09.21-14.49.40:531][494]LogLinux: Scale at X=0.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.40:532][494]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.40:532][494]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.40:590][494]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.21-14.49.40:598][494]LogAssetTools: Warning: Failed to import '/home/john/Downloads/LuosFreeRocksCaves/LuosFreeCaves/Content/LuosCaves/Meshes/Props_Mushrooms/SM_LProp_Free_LightMushroom_07.uasset'. Unknown extension 'uasset'.
+[2018.09.21-14.49.40:635][494]LogLinux: Scale at X=0.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.40:635][494]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.40:636][494]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.40:701][494]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.21-14.49.40:701][494]LogAssetTools: Warning: Failed to import '/home/john/Downloads/LuosFreeRocksCaves/LuosFreeCaves/Content/LuosCaves/Meshes/Props_Mushrooms/SM_LProp_Free_LightMushroom_09.uasset'. Unknown extension 'uasset'.
+[2018.09.21-14.49.40:739][494]LogLinux: Scale at X=0.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.40:739][494]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.40:739][494]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.40:797][494]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.21-14.49.40:811][494]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.21-14.49.40:811][494]LogAssetTools: Warning: Failed to import '/home/john/Downloads/LuosFreeRocksCaves/LuosFreeCaves/Content/LuosCaves/Meshes/Props_Mushrooms/SM_LProp_Free_LightMushroom_04.uasset'. Unknown extension 'uasset'.
+[2018.09.21-14.49.40:862][494]LogLinux: Scale at X=0.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.40:862][494]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.40:862][494]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.40:918][494]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.21-14.49.40:918][494]LogAssetTools: Warning: Failed to import '/home/john/Downloads/LuosFreeRocksCaves/LuosFreeCaves/Content/LuosCaves/Meshes/Props_Rocks/SM_LCave_P_Free_Rock_02.uasset'. Unknown extension 'uasset'.
+[2018.09.21-14.49.40:956][494]LogLinux: Scale at X=0.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.40:956][494]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.40:956][494]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.41:008][494]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.21-14.49.41:018][494]LogAssetTools: Warning: Failed to import '/home/john/Downloads/LuosFreeRocksCaves/LuosFreeCaves/Content/LuosCaves/Meshes/Props_Rocks/SM_LCave_P_Free_Rock_03.uasset'. Unknown extension 'uasset'.
+[2018.09.21-14.49.41:062][494]LogLinux: Scale at X=0.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.41:062][494]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.41:062][494]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.41:106][494]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.21-14.49.41:111][494]LogAssetTools: Warning: Failed to import '/home/john/Downloads/LuosFreeRocksCaves/LuosFreeCaves/Content/LuosCaves/Meshes/Props_Rocks/SM_LCave_P_Free_Rock_01.uasset'. Unknown extension 'uasset'.
+[2018.09.21-14.49.41:150][494]LogLinux: Scale at X=0.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.41:150][494]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.41:153][494]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.41:217][494]LogAssetTools: Warning: Failed to import '/home/john/Downloads/LuosFreeRocksCaves/LuosFreeCaves/Content/LuosCaves/Meshes/Caves_LSections/SM_LCave_Free_CHL_01.uasset'. Unknown extension 'uasset'.
+[2018.09.21-14.49.41:263][494]LogLinux: Scale at X=0.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.41:263][494]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.41:264][494]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.41:324][494]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.21-14.49.41:334][494]LogAssetTools: Warning: Failed to import '/home/john/Downloads/LuosFreeRocksCaves/LuosFreeCaves/Content/LuosCaves/Meshes/Caves_Transitions/SM_LCave_Free_SeamCover_01.uasset'. Unknown extension 'uasset'.
+[2018.09.21-14.49.41:374][494]LogLinux: Scale at X=0.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.41:374][494]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.41:375][494]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.41:433][494]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.21-14.49.41:442][494]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.21-14.49.41:442][494]LogAssetTools: Warning: Failed to import '/home/john/Downloads/LuosFreeRocksCaves/LuosFreeCaves/Content/LuosCaves/Meshes/Caves_Transitions/SM_LCave_Free_Entrance_01.uasset'. Unknown extension 'uasset'.
+[2018.09.21-14.49.41:498][494]LogLinux: Scale at X=0.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.41:498][494]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.41:499][494]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.41:555][494]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.21-14.49.41:555][494]LogAssetTools: Warning: Failed to import '/home/john/Downloads/LuosFreeRocksCaves/LuosFreeCaves/Content/LuosCaves/Meshes/Caves_XSections/SM_LCave_Free_CRX_01.uasset'. Unknown extension 'uasset'.
+[2018.09.21-14.49.41:607][494]LogLinux: Scale at X=0.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.41:607][494]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.41:607][494]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.41:682][494]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.21-14.49.41:688][494]LogAssetTools: Warning: Failed to import '/home/john/Downloads/LuosFreeRocksCaves/LuosFreeCaves/Content/LuosCaves/Meshes/Props_Floors/SM_LCave_P_Free_Floor_01.uasset'. Unknown extension 'uasset'.
+[2018.09.21-14.49.41:742][494]LogLinux: Scale at X=0.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.41:742][494]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.41:742][494]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.41:793][494]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.21-14.49.41:803][494]LogAssetTools: Warning: Failed to import '/home/john/Downloads/LuosFreeRocksCaves/LuosFreeCaves/Content/LuosCaves/Meshes/Props_Floors/SM_LCave_P_Free_Floor_02.uasset'. Unknown extension 'uasset'.
+[2018.09.21-14.49.41:863][494]LogLinux: Scale at X=0.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.41:863][494]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.41:863][494]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.41:912][494]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.21-14.49.41:920][494]LogAssetTools: Warning: Failed to import '/home/john/Downloads/LuosFreeRocksCaves/LuosFreeCaves/Content/LuosCaves/Meshes/Props_Arches/SM_LCave_P_Free_Arch_01.uasset'. Unknown extension 'uasset'.
+[2018.09.21-14.49.41:978][494]LogLinux: Scale at X=0.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.41:978][494]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.41:978][494]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.42:035][494]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.21-14.49.42:035][494]LogAssetTools: Warning: Failed to import '/home/john/Downloads/LuosFreeRocksCaves/LuosFreeCaves/Content/LuosCaves/Meshes/Props_Columns/SM_LCave_P_Free_Column_01.uasset'. Unknown extension 'uasset'.
+[2018.09.21-14.49.42:082][494]LogLinux: Scale at X=0.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.42:083][494]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.42:083][494]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.42:134][494]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.21-14.49.42:134][494]LogAssetTools: Warning: Failed to import '/home/john/Downloads/LuosFreeRocksCaves/LuosFreeCaves/Content/LuosCaves/Meshes/Props_Columns/SM_LCave_P_Free_Column_02.uasset'. Unknown extension 'uasset'.
+[2018.09.21-14.49.42:181][494]LogLinux: Scale at X=0.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.42:181][494]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.42:181][494]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.42:234][494]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.21-14.49.42:240][494]LogAssetTools: Warning: Failed to import '/home/john/Downloads/LuosFreeRocksCaves/LuosFreeCaves/Content/LuosCaves/Meshes/Props_Mite_Tites/SM_LCave_P_Free_MiteTite_01.uasset'. Unknown extension 'uasset'.
+[2018.09.21-14.49.42:293][494]LogLinux: Scale at X=0.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.42:294][494]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.42:294][494]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.42:342][494]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.21-14.49.42:353][494]LogAssetTools: Warning: Failed to import '/home/john/Downloads/LuosFreeRocksCaves/LuosFreeCaves/Content/LuosCaves/Meshes/Props_Mite_Tites/SM_LCave_P_Free_MiteTite_02.uasset'. Unknown extension 'uasset'.
+[2018.09.21-14.49.42:419][494]LogLinux: Scale at X=0.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.42:419][494]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.42:420][494]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.42:487][494]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.21-14.49.42:487][494]LogAssetTools: Warning: Failed to import '/home/john/Downloads/LuosFreeRocksCaves/LuosFreeCaves/Content/LuosCaves/Textures/Rock_Free_MossBrown01_Normal.uasset'. Unknown extension 'uasset'.
+[2018.09.21-14.49.42:562][494]LogLinux: Scale at X=0.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.42:562][494]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.42:563][494]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.42:608][494]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.21-14.49.42:619][494]LogAssetTools: Warning: Failed to import '/home/john/Downloads/LuosFreeRocksCaves/LuosFreeCaves/Content/LuosCaves/Textures/Grunge_01.uasset'. Unknown extension 'uasset'.
+[2018.09.21-14.49.42:692][494]LogLinux: Scale at X=0.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.42:692][494]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.42:692][494]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.42:753][494]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.21-14.49.42:753][494]LogAssetTools: Warning: Failed to import '/home/john/Downloads/LuosFreeRocksCaves/LuosFreeCaves/Content/LuosCaves/Textures/T_LCave_EmissiveMushroom_01.uasset'. Unknown extension 'uasset'.
+[2018.09.21-14.49.42:816][494]LogLinux: Scale at X=0.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.42:816][494]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.42:816][494]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.42:878][494]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.21-14.49.42:887][494]LogAssetTools: Warning: Failed to import '/home/john/Downloads/LuosFreeRocksCaves/LuosFreeCaves/Content/LuosCaves/Textures/Rock_Free_MossBrown01_Albedo.uasset'. Unknown extension 'uasset'.
+[2018.09.21-14.49.42:945][494]LogLinux: Scale at X=0.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.42:947][494]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.42:947][494]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.42:996][494]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.21-14.49.43:008][494]LogAssetTools: Warning: Failed to import '/home/john/Downloads/LuosFreeRocksCaves/LuosFreeCaves/Content/LuosCaves/Textures/Rock_Free_MossBrown01_Roughness.uasset'. Unknown extension 'uasset'.
+[2018.09.21-14.49.43:063][494]LogLinux: Scale at X=0.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.43:063][494]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.43:064][494]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.43:110][494]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.21-14.49.43:121][494]LogAssetTools: Warning: Failed to import '/home/john/Downloads/LuosFreeRocksCaves/LuosFreeCaves/Content/LuosCaves/Textures/T_LCave_EmissiveMushroom_01_Normal.uasset'. Unknown extension 'uasset'.
+[2018.09.21-14.49.43:177][494]LogLinux: Scale at X=0.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.43:178][494]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.43:178][494]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.43:223][494]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.21-14.49.43:234][494]LogAssetTools: Warning: Failed to import '/home/john/Downloads/LuosFreeRocksCaves/LuosFreeCaves/Content/LuosCaves/Textures/Rock_Free_FloorBrown01_Roughness.uasset'. Unknown extension 'uasset'.
+[2018.09.21-14.49.43:284][494]LogLinux: Scale at X=0.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.43:284][494]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.43:285][494]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.43:335][494]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.21-14.49.43:335][494]LogAssetTools: Warning: Failed to import '/home/john/Downloads/LuosFreeRocksCaves/LuosFreeCaves/Content/LuosCaves/Textures/T_LCave_EmissiveMushroom_02.uasset'. Unknown extension 'uasset'.
+[2018.09.21-14.49.43:399][494]LogLinux: Scale at X=0.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.43:399][494]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.43:399][494]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.43:471][494]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.21-14.49.43:471][494]LogAssetTools: Warning: Failed to import '/home/john/Downloads/LuosFreeRocksCaves/LuosFreeCaves/Content/LuosCaves/Textures/Rock_Free_FloorBrown01_Albedo.uasset'. Unknown extension 'uasset'.
+[2018.09.21-14.49.43:542][494]LogLinux: Scale at X=0.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.43:543][494]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.43:543][494]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.43:591][494]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.21-14.49.43:601][494]LogAssetTools: Warning: Failed to import '/home/john/Downloads/LuosFreeRocksCaves/LuosFreeCaves/Content/LuosCaves/Textures/SeamHiderHider.uasset'. Unknown extension 'uasset'.
+[2018.09.21-14.49.43:673][494]LogLinux: Scale at X=0.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.43:673][494]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.43:673][494]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.43:728][494]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.21-14.49.43:740][494]LogAssetTools: Warning: Failed to import '/home/john/Downloads/LuosFreeRocksCaves/LuosFreeCaves/Content/LuosCaves/Textures/Rock_Free_FloorBrown01_Normal.uasset'. Unknown extension 'uasset'.
+[2018.09.21-14.49.43:842][495]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.21-14.49.43:928][496]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.21-14.49.57:225][725]LogLinux: Scale at X=0.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.57:225][725]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.57:227][725]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.57:258][725]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.21-14.49.57:265][725]LogLinux: Scale at X=0.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.57:266][725]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.57:266][725]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.57:298][725]LogAssetTools: Warning: Failed to import '/home/john/Downloads/LuosFreeRocksCaves/LuosFreeCaves/Content/LuosCaves/Textures/Rock_Free_MossBrown01_Normal.uasset'. Unknown extension 'uasset'.
+[2018.09.21-14.49.57:301][725]LogLinux: Scale at X=0.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.57:301][725]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.57:302][725]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.57:342][725]LogAssetTools: Warning: Failed to import '/home/john/Downloads/LuosFreeRocksCaves/LuosFreeCaves/Content/LuosCaves/Textures/Grunge_01.uasset'. Unknown extension 'uasset'.
+[2018.09.21-14.49.57:346][725]LogLinux: Scale at X=0.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.57:347][725]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.57:347][725]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.57:377][725]LogAssetTools: Warning: Failed to import '/home/john/Downloads/LuosFreeRocksCaves/LuosFreeCaves/Content/LuosCaves/Textures/T_LCave_EmissiveMushroom_01.uasset'. Unknown extension 'uasset'.
+[2018.09.21-14.49.57:381][725]LogLinux: Scale at X=0.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.57:382][725]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.57:382][725]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.57:413][725]LogAssetTools: Warning: Failed to import '/home/john/Downloads/LuosFreeRocksCaves/LuosFreeCaves/Content/LuosCaves/Textures/Rock_Free_MossBrown01_Albedo.uasset'. Unknown extension 'uasset'.
+[2018.09.21-14.49.57:417][725]LogLinux: Scale at X=0.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.57:417][725]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.57:418][725]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.57:460][725]LogAssetTools: Warning: Failed to import '/home/john/Downloads/LuosFreeRocksCaves/LuosFreeCaves/Content/LuosCaves/Textures/Rock_Free_MossBrown01_Roughness.uasset'. Unknown extension 'uasset'.
+[2018.09.21-14.49.57:468][725]LogLinux: Scale at X=0.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.57:468][725]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.57:469][725]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.57:495][725]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.21-14.49.57:508][725]LogAssetTools: Warning: Failed to import '/home/john/Downloads/LuosFreeRocksCaves/LuosFreeCaves/Content/LuosCaves/Textures/T_LCave_EmissiveMushroom_01_Normal.uasset'. Unknown extension 'uasset'.
+[2018.09.21-14.49.57:523][725]LogLinux: Scale at X=0.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.57:528][725]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.57:529][725]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.57:567][725]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.21-14.49.57:581][725]LogAssetTools: Warning: Failed to import '/home/john/Downloads/LuosFreeRocksCaves/LuosFreeCaves/Content/LuosCaves/Textures/Rock_Free_FloorBrown01_Roughness.uasset'. Unknown extension 'uasset'.
+[2018.09.21-14.49.57:596][725]LogLinux: Scale at X=0.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.57:596][725]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.57:597][725]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.57:633][725]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.21-14.49.57:640][725]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.21-14.49.57:646][725]LogAssetTools: Warning: Failed to import '/home/john/Downloads/LuosFreeRocksCaves/LuosFreeCaves/Content/LuosCaves/Textures/T_LCave_EmissiveMushroom_02.uasset'. Unknown extension 'uasset'.
+[2018.09.21-14.49.57:668][725]LogLinux: Scale at X=0.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.57:670][725]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.57:670][725]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.57:706][725]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.21-14.49.57:713][725]LogAssetTools: Warning: Failed to import '/home/john/Downloads/LuosFreeRocksCaves/LuosFreeCaves/Content/LuosCaves/Textures/Rock_Free_FloorBrown01_Albedo.uasset'. Unknown extension 'uasset'.
+[2018.09.21-14.49.57:735][725]LogLinux: Scale at X=0.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.57:735][725]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.57:735][725]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.57:785][725]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.21-14.49.57:797][725]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.21-14.49.57:797][725]LogAssetTools: Warning: Failed to import '/home/john/Downloads/LuosFreeRocksCaves/LuosFreeCaves/Content/LuosCaves/Textures/SeamHiderHider.uasset'. Unknown extension 'uasset'.
+[2018.09.21-14.49.57:829][725]LogLinux: Scale at X=0.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.57:829][725]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.57:830][725]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.49.57:870][725]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.21-14.49.57:877][725]LogAssetTools: Warning: Failed to import '/home/john/Downloads/LuosFreeRocksCaves/LuosFreeCaves/Content/LuosCaves/Textures/Rock_Free_FloorBrown01_Normal.uasset'. Unknown extension 'uasset'.
+[2018.09.21-14.49.57:963][726]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.21-14.49.58:009][727]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.21-14.49.58:090][729]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.21-14.51.43:700][565]LogTexture: Display: Building textures: T_LCave_EmissiveMushroom_02 (AutoDXT, 1024X1024)
+[2018.09.21-14.51.43:704][565]LogLinux: Scale at X=0.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.51.43:704][565]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.51.43:709][565]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.51.43:748][565]LogAssetEditorManager: Opening Asset editor for Texture2D /Game/LuosCave/Textures/T_LCave_EmissiveMushroom_02.T_LCave_EmissiveMushroom_02
+[2018.09.21-14.51.43:907][565]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.21-14.51.43:907][565]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2018.09.21-14.51.43:933][565]LogLinux: Scale at X=0.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.51.43:933][565]LogLinux: Scale at X=805.000000, Y=468.500000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.51.44:154][565]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.21-14.51.49:593][685]LogLinux: Scale at X=0.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.51.49:593][685]LogSlate: Window 'T_LCave_EmissiveMushroom_02' being destroyed
+[2018.09.21-14.52.18:389][127]LogLinux: Scale at X=125.500000, Y=384.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.52.18:442][129]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.21-14.52.26:992][704]LogLinux: Scale at X=323.500000, Y=511.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.52.27:032][705]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.21-14.52.31:290][956]LogLinux: Scale at X=0.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.52.31:290][956]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.52.31:291][956]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.52.31:331][956]LogAudioDerivedData: Display: Building compressed audio format ADPCM hash ADPCM wave CompileSuccess...
+[2018.09.21-14.52.31:332][956]LogTemp: Couldn't find amount to resample to.
+[2018.09.21-14.52.31:370][957]UATHelper: Cooking (Linux): Running AutomationTool...
+[2018.09.21-14.52.31:394][957]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.21-14.52.31:395][957]UATHelper: Cooking (Linux): Compiling AutomationTool with xbuild
+[2018.09.21-14.52.31:395][957]UATHelper: Cooking (Linux): xbuild Source/Programs/AutomationTool/AutomationTool.csproj /p:Configuration=Development /p:Platform=AnyCPU /verbosity:quiet /nologo /p:TargetFrameworkProfile=
+[2018.09.21-14.52.31:395][957]UATHelper: Cooking (Linux): RunUAT ERROR: AutomationTool failed to compile.
+[2018.09.21-14.52.31:404][958]PackagingResults: Error: AutomationTool failed to compile.
+[2018.09.21-14.52.31:408][958]LogAudioDerivedData: Display: Building compressed audio format ADPCM hash ADPCM wave CompileFailed...
+[2018.09.21-14.52.31:409][958]LogTemp: Couldn't find amount to resample to.
+[2018.09.21-14.52.34:751][ 85]LogLinux: Scale at X=0.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.52.34:751][ 85]LogLinux: Scale at X=295.000000, Y=145.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.52.34:751][ 85]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.52.34:816][ 85]LogSlate: Took 0.000486 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2018.09.21-14.52.35:164][ 86]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.21-14.52.53:289][587]LogLinux: Scale at X=295.000000, Y=145.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.52.53:291][587]LogSlate: Window 'Output Log' being destroyed
+[2018.09.21-14.52.53:306][587]LogSlate: Window 'Output Log' being destroyed
+[2018.09.21-14.53.41:272][903]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.53.41:311][905]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.21-14.53.48:311][380]LogLinux: Scale at X=293.500000, Y=662.500000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.53.48:351][382]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.21-14.53.50:302][485]LogLinux: Scale at X=0.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.53.50:302][485]LogLinux: Scale at X=345.000000, Y=183.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.53.50:303][485]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.53.50:396][486]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.21-14.54.12:118][ 53]LogSlate: Window 'Add Content to the Project' being destroyed
+[2018.09.21-14.54.13:585][ 93]LogLinux: Scale at X=0.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.54.13:585][ 93]LogLinux: Scale at X=395.000000, Y=183.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.54.13:591][ 93]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.54.13:688][ 93]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.21-14.54.54:544][ 93]LogSlate: Window 'Open File' being destroyed
+[2018.09.21-14.54.56:928][150]LogLinux: Scale at X=800.000000, Y=450.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.54.56:968][152]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.21-14.54.58:027][217]LogLinux: Scale at X=327.000000, Y=656.500000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.54.58:060][219]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.21-14.54.58:477][240]LogLinux: Scale at X=302.500000, Y=568.500000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.54.58:508][242]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.21-14.55.00:661][361]LogLinux: Scale at X=307.500000, Y=615.500000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.55.00:691][363]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.21-14.55.02:809][486]LogLinux: Scale at X=345.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.55.02:844][488]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.21-14.55.05:384][626]LogLinux: Scale at X=284.500000, Y=596.500000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.55.05:421][628]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.21-14.55.05:984][657]LogLinux: Scale at X=293.500000, Y=662.500000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.55.06:018][659]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.21-14.55.24:788][677]LogLinux: Scale at X=125.500000, Y=384.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.55.24:834][679]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.21-14.55.26:249][773]LogLinux: Scale at X=323.500000, Y=511.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.55.26:276][774]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.21-14.55.40:972][521]LogLinux: Scale at X=0.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.21-14.55.41:132][521]LogSlate: Window 'CaveTree - Unreal Editor' being destroyed
+[2018.09.21-14.55.41:300][522]Cmd: QUIT_EDITOR
+[2018.09.21-14.55.41:367][522]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2018.09.21-14.55.41:367][522]LogExit: Preparing to exit.
+[2018.09.21-14.55.42:474][522]LogExit: Editor shut down
+[2018.09.21-14.55.42:477][522]LogExit: Transaction tracking system shut down
+[2018.09.21-14.55.42:729][522]LogExit: Object subsystem successfully closed.
+[2018.09.21-14.55.42:742][522]LogShaderCompilers: Display: Shaders left to compile 0
+[2018.09.21-14.55.42:846][522]LogModuleManager: Shutting down and abandoning module SlateFileDialogs (536)
+[2018.09.21-14.55.42:846][522]LogModuleManager: Shutting down and abandoning module UATHelper (534)
+[2018.09.21-14.55.42:846][522]LogModuleManager: Shutting down and abandoning module TextureEditor (532)
+[2018.09.21-14.55.42:846][522]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (530)
+[2018.09.21-14.55.42:848][522]LogModuleManager: Shutting down and abandoning module SceneOutliner (528)
+[2018.09.21-14.55.42:848][522]LogModuleManager: Shutting down and abandoning module AddContentDialog (526)
+[2018.09.21-14.55.42:849][522]LogModuleManager: Shutting down and abandoning module WidgetCarousel (525)
+[2018.09.21-14.55.42:849][522]LogModuleManager: Shutting down and abandoning module EditorWidgets (522)
+[2018.09.21-14.55.42:849][522]LogModuleManager: Shutting down and abandoning module CollectionManager (520)
+[2018.09.21-14.55.42:849][522]LogModuleManager: Shutting down and abandoning module StatsViewer (518)
+[2018.09.21-14.55.42:849][522]LogModuleManager: Shutting down and abandoning module FoliageEdit (516)
+[2018.09.21-14.55.42:849][522]LogModuleManager: Shutting down and abandoning module LandscapeEditor (514)
+[2018.09.21-14.55.42:849][522]LogModuleManager: Shutting down and abandoning module MeshPaintMode (512)
+[2018.09.21-14.55.42:850][522]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (510)
+[2018.09.21-14.55.42:850][522]LogModuleManager: Shutting down and abandoning module ActorPickerMode (508)
+[2018.09.21-14.55.42:850][522]LogModuleManager: Shutting down and abandoning module GeometryMode (506)
+[2018.09.21-14.55.42:850][522]LogModuleManager: Shutting down and abandoning module TextureAlignMode (504)
+[2018.09.21-14.55.42:850][522]LogModuleManager: Shutting down and abandoning module BspMode (502)
+[2018.09.21-14.55.42:850][522]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (500)
+[2018.09.21-14.55.42:850][522]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (498)
+[2018.09.21-14.55.42:850][522]LogModuleManager: Shutting down and abandoning module SequenceRecorder (496)
+[2018.09.21-14.55.42:850][522]LogModuleManager: Shutting down and abandoning module AutomationWorker (494)
+[2018.09.21-14.55.42:850][522]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (492)
+[2018.09.21-14.55.42:850][522]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (490)
+[2018.09.21-14.55.42:850][522]LogModuleManager: Shutting down and abandoning module PlacementMode (489)
+[2018.09.21-14.55.42:851][522]LogModuleManager: Shutting down and abandoning module MaterialEditor (488)
+[2018.09.21-14.55.42:851][522]LogModuleManager: Shutting down and abandoning module CharacterAI (484)
+[2018.09.21-14.55.42:851][522]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (482)
+[2018.09.21-14.55.42:851][522]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (480)
+[2018.09.21-14.55.42:851][522]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (478)
+[2018.09.21-14.55.42:851][522]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2018.09.21-14.55.42:851][522]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2018.09.21-14.55.42:851][522]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2018.09.21-14.55.42:851][522]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (470)
+[2018.09.21-14.55.42:851][522]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (468)
+[2018.09.21-14.55.42:851][522]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (466)
+[2018.09.21-14.55.42:851][522]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (464)
+[2018.09.21-14.55.42:851][522]LogModuleManager: Shutting down and abandoning module SmartSnapping (462)
+[2018.09.21-14.55.42:851][522]LogModuleManager: Shutting down and abandoning module SessionServices (460)
+[2018.09.21-14.55.42:851][522]LogModuleManager: Shutting down and abandoning module ViewportSnapping (458)
+[2018.09.21-14.55.42:851][522]LogModuleManager: Shutting down and abandoning module ViewportInteraction (456)
+[2018.09.21-14.55.42:851][522]LogModuleManager: Shutting down and abandoning module ClothPainter (454)
+[2018.09.21-14.55.42:851][522]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (453)
+[2018.09.21-14.55.42:852][522]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2018.09.21-14.55.42:852][522]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2018.09.21-14.55.42:852][522]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2018.09.21-14.55.42:852][522]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (444)
+[2018.09.21-14.55.42:852][522]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (443)
+[2018.09.21-14.55.43:408][522]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2018.09.21-14.55.43:408][522]LogModuleManager: Shutting down and abandoning module LinuxPlatformEditor (438)
+[2018.09.21-14.55.43:408][522]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (436)
+[2018.09.21-14.55.43:408][522]LogModuleManager: Shutting down and abandoning module InputBindingEditor (434)
+[2018.09.21-14.55.43:408][522]LogModuleManager: Shutting down and abandoning module MergeActors (432)
+[2018.09.21-14.55.43:408][522]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (430)
+[2018.09.21-14.55.43:408][522]LogModuleManager: Shutting down and abandoning module LocalizationService (429)
+[2018.09.21-14.55.43:408][522]LogModuleManager: Shutting down and abandoning module HardwareTargeting (426)
+[2018.09.21-14.55.43:409][522]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (424)
+[2018.09.21-14.55.43:410][522]LogModuleManager: Shutting down and abandoning module UndoHistory (422)
+[2018.09.21-14.55.43:410][522]LogModuleManager: Shutting down and abandoning module XmlParser (420)
+[2018.09.21-14.55.43:410][522]LogModuleManager: Shutting down and abandoning module Blutility (418)
+[2018.09.21-14.55.43:410][522]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (416)
+[2018.09.21-14.55.43:411][522]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (415)
+[2018.09.21-14.55.43:411][522]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (412)
+[2018.09.21-14.55.43:411][522]LogModuleManager: Shutting down and abandoning module SettingsEditor (410)
+[2018.09.21-14.55.43:411][522]LogModuleManager: Shutting down and abandoning module ProjectLauncher (408)
+[2018.09.21-14.55.43:411][522]LogModuleManager: Shutting down and abandoning module SessionFrontend (406)
+[2018.09.21-14.55.43:412][522]LogModuleManager: Shutting down and abandoning module ProfilerClient (404)
+[2018.09.21-14.55.43:412][522]LogModuleManager: Shutting down and abandoning module DeviceManager (402)
+[2018.09.21-14.55.43:412][522]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (401)
+[2018.09.21-14.55.43:443][522]LogModuleManager: Shutting down and abandoning module AutomationController (398)
+[2018.09.21-14.55.43:443][522]LogModuleManager: Shutting down and abandoning module AutomationWindow (396)
+[2018.09.21-14.55.43:443][522]LogModuleManager: Shutting down and abandoning module Layers (394)
+[2018.09.21-14.55.43:444][522]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (392)
+[2018.09.21-14.55.43:444][522]LogModuleManager: Shutting down and abandoning module DetailCustomizations (390)
+[2018.09.21-14.55.43:444][522]LogModuleManager: Shutting down and abandoning module PackagesDialog (388)
+[2018.09.21-14.55.43:444][522]LogModuleManager: Shutting down and abandoning module Persona (386)
+[2018.09.21-14.55.43:445][522]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (385)
+[2018.09.21-14.55.43:445][522]LogModuleManager: Shutting down and abandoning module AnimGraph (383)
+[2018.09.21-14.55.43:445][522]LogModuleManager: Shutting down and abandoning module Kismet (380)
+[2018.09.21-14.55.43:445][522]LogModuleManager: Shutting down and abandoning module GraphEditor (378)
+[2018.09.21-14.55.43:446][522]LogModuleManager: Shutting down and abandoning module ClassViewer (376)
+[2018.09.21-14.55.43:446][522]LogModuleManager: Shutting down and abandoning module Toolbox (374)
+[2018.09.21-14.55.43:446][522]LogModuleManager: Shutting down and abandoning module DesktopPlatform (373)
+[2018.09.21-14.55.43:446][522]LogModuleManager: Shutting down and abandoning module ModuleUI (370)
+[2018.09.21-14.55.43:446][522]LogModuleManager: Shutting down and abandoning module MovieSceneTools (368)
+[2018.09.21-14.55.43:446][522]LogModuleManager: Shutting down and abandoning module OutputLog (366)
+[2018.09.21-14.55.43:446][522]LogModuleManager: Shutting down and abandoning module GammaUI (364)
+[2018.09.21-14.55.43:446][522]LogModuleManager: Shutting down and abandoning module Documentation (362)
+[2018.09.21-14.55.43:446][522]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (360)
+[2018.09.21-14.55.43:447][522]LogModuleManager: Shutting down and abandoning module MovieScene (358)
+[2018.09.21-14.55.43:447][522]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (356)
+[2018.09.21-14.55.43:447][522]LogModuleManager: Shutting down and abandoning module LauncherPlatform (354)
+[2018.09.21-14.55.43:447][522]LogModuleManager: Shutting down and abandoning module AnalyticsET (352)
+[2018.09.21-14.55.43:447][522]LogModuleManager: Shutting down and abandoning module PortalServices (350)
+[2018.09.21-14.55.43:447][522]LogModuleManager: Shutting down and abandoning module PortalRpc (348)
+[2018.09.21-14.55.43:447][522]LogModuleManager: Shutting down and abandoning module MessagingRpc (346)
+[2018.09.21-14.55.43:447][522]LogModuleManager: Shutting down and abandoning module AIModule (344)
+[2018.09.21-14.55.43:447][522]LogModuleManager: Shutting down and abandoning module GameplayDebugger (343)
+[2018.09.21-14.55.43:447][522]LogModuleManager: Shutting down and abandoning module AITestSuite (341)
+[2018.09.21-14.55.43:447][522]LogModuleManager: Shutting down and abandoning module NavigationSystem (339)
+[2018.09.21-14.55.43:447][522]LogModuleManager: Shutting down and abandoning module ProfilerService (336)
+[2018.09.21-14.55.43:591][522]LogModuleManager: Shutting down and abandoning module TaskGraph (334)
+[2018.09.21-14.55.43:591][522]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (332)
+[2018.09.21-14.55.43:591][522]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (330)
+[2018.09.21-14.55.43:591][522]LogModuleManager: Shutting down and abandoning module PluginBrowser (328)
+[2018.09.21-14.55.43:592][522]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (326)
+[2018.09.21-14.55.43:592][522]LogModuleManager: Shutting down and abandoning module PolygonModeling (324)
+[2018.09.21-14.55.43:592][522]LogModuleManager: Shutting down and abandoning module MeshEditor (322)
+[2018.09.21-14.55.43:592][522]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (320)
+[2018.09.21-14.55.43:592][522]LogModuleManager: Shutting down and abandoning module CryptoKeys (318)
+[2018.09.21-14.55.43:592][522]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (316)
+[2018.09.21-14.55.43:592][522]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (314)
+[2018.09.21-14.55.43:592][522]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (312)
+[2018.09.21-14.55.43:592][522]LogModuleManager: Shutting down and abandoning module AndroidPermission (310)
+[2018.09.21-14.55.43:592][522]LogModuleManager: Shutting down and abandoning module SteamVRController (308)
+[2018.09.21-14.55.43:592][522]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (306)
+[2018.09.21-14.55.43:593][522]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (304)
+[2018.09.21-14.55.43:593][522]LogModuleManager: Shutting down and abandoning module EditableMesh (302)
+[2018.09.21-14.55.43:593][522]LogModuleManager: Shutting down and abandoning module CableComponent (300)
+[2018.09.21-14.55.43:593][522]LogModuleManager: Shutting down and abandoning module BackChannel (298)
+[2018.09.21-14.55.43:593][522]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (296)
+[2018.09.21-14.55.43:593][522]LogModuleManager: Shutting down and abandoning module AppleImageUtils (294)
+[2018.09.21-14.55.43:593][522]LogModuleManager: Shutting down and abandoning module AlembicImporter (292)
+[2018.09.21-14.55.43:593][522]LogModuleManager: Shutting down and abandoning module AlembicLibrary (291)
+[2018.09.21-14.55.43:593][522]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (288)
+[2018.09.21-14.55.43:593][522]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (287)
+[2018.09.21-14.55.43:593][522]LogModuleManager: Shutting down and abandoning module GeometryCache (284)
+[2018.09.21-14.55.43:593][522]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (283)
+[2018.09.21-14.55.43:593][522]LogModuleManager: Shutting down and abandoning module AppleVisionBlueprintSupport (280)
+[2018.09.21-14.55.43:593][522]LogModuleManager: Shutting down and abandoning module AppleVision (278)
+[2018.09.21-14.55.43:593][522]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (276)
+[2018.09.21-14.55.43:594][522]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (274)
+[2018.09.21-14.55.43:594][522]LogModuleManager: Shutting down and abandoning module KDevelopSourceCodeAccess (272)
+[2018.09.21-14.55.43:594][522]LogModuleManager: Shutting down and abandoning module CodeLiteSourceCodeAccess (270)
+[2018.09.21-14.55.43:594][522]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2018.09.21-14.55.43:594][522]LogModuleManager: Shutting down and abandoning module UObjectPlugin (266)
+[2018.09.21-14.55.43:594][522]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (264)
+[2018.09.21-14.55.43:594][522]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (262)
+[2018.09.21-14.55.43:595][522]LogModuleManager: Shutting down and abandoning module SourceControl (261)
+[2018.09.21-14.55.43:595][522]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (258)
+[2018.09.21-14.55.43:595][522]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (256)
+[2018.09.21-14.55.43:595][522]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (254)
+[2018.09.21-14.55.43:595][522]LogModuleManager: Shutting down and abandoning module DatasmithContent (252)
+[2018.09.21-14.55.43:596][522]LogModuleManager: Shutting down and abandoning module ImgMedia (250)
+[2018.09.21-14.55.43:597][522]LogModuleManager: Shutting down and abandoning module Media (249)
+[2018.09.21-14.55.43:603][522]LogModuleManager: Shutting down and abandoning module LinearTimecode (246)
+[2018.09.21-14.55.43:603][522]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (244)
+[2018.09.21-14.55.43:603][522]LogModuleManager: Shutting down and abandoning module MediaCompositing (242)
+[2018.09.21-14.55.43:603][522]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (240)
+[2018.09.21-14.55.43:603][522]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (238)
+[2018.09.21-14.55.43:603][522]LogModuleManager: Shutting down and abandoning module Paper2DEditor (236)
+[2018.09.21-14.55.43:603][522]LogModuleManager: Shutting down and abandoning module MeshPaint (235)
+[2018.09.21-14.55.43:603][522]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (232)
+[2018.09.21-14.55.43:603][522]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (230)
+[2018.09.21-14.55.43:603][522]LogModuleManager: Shutting down and abandoning module DataValidation (228)
+[2018.09.21-14.55.43:604][522]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (226)
+[2018.09.21-14.55.43:604][522]LogModuleManager: Shutting down and abandoning module FacialAnimation (224)
+[2018.09.21-14.55.43:604][522]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (222)
+[2018.09.21-14.55.43:604][522]LogModuleManager: Shutting down and abandoning module LevelEditor (221)
+[2018.09.21-14.55.43:609][522]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (220)
+[2018.09.21-14.55.43:609][522]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (218)
+[2018.09.21-14.55.43:609][522]LogModuleManager: Shutting down and abandoning module MainFrame (216)
+[2018.09.21-14.55.43:610][522]LogModuleManager: Shutting down and abandoning module HotReload (215)
+[2018.09.21-14.55.43:610][522]LogModuleManager: Shutting down and abandoning module ContentBrowser (211)
+[2018.09.21-14.55.43:613][522]LogModuleManager: Shutting down and abandoning module TreeMap (209)
+[2018.09.21-14.55.43:613][522]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (206)
+[2018.09.21-14.55.43:613][522]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (204)
+[2018.09.21-14.55.43:613][522]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (202)
+[2018.09.21-14.55.43:613][522]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (200)
+[2018.09.21-14.55.43:613][522]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (198)
+[2018.09.21-14.55.43:613][522]LogModuleManager: Shutting down and abandoning module PhysXVehicles (196)
+[2018.09.21-14.55.43:613][522]LogModuleManager: Shutting down and abandoning module ActorSequence (194)
+[2018.09.21-14.55.43:613][522]LogModuleManager: Shutting down and abandoning module TcpMessaging (192)
+[2018.09.21-14.55.43:714][522]LogModuleManager: Shutting down and abandoning module UdpMessaging (190)
+[2018.09.21-14.55.43:814][522]LogModuleManager: Shutting down and abandoning module AISupportModule (188)
+[2018.09.21-14.55.43:814][522]LogModuleManager: Shutting down and abandoning module NullSourceCodeAccess (186)
+[2018.09.21-14.55.43:814][522]LogModuleManager: Shutting down and abandoning module Paper2D (184)
+[2018.09.21-14.55.43:815][522]LogModuleManager: Shutting down and abandoning module PacketHandler (182)
+[2018.09.21-14.55.43:815][522]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (180)
+[2018.09.21-14.55.43:815][522]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (178)
+[2018.09.21-14.55.43:815][522]LogModuleManager: Shutting down and abandoning module MediaAssets (176)
+[2018.09.21-14.55.43:815][522]LogModuleManager: Shutting down and abandoning module Overlay (174)
+[2018.09.21-14.55.43:815][522]LogModuleManager: Shutting down and abandoning module OverlayEditor (173)
+[2018.09.21-14.55.43:815][522]LogModuleManager: Shutting down and abandoning module VREditor (170)
+[2018.09.21-14.55.43:815][522]LogModuleManager: Shutting down and abandoning module StringTableEditor (168)
+[2018.09.21-14.55.43:815][522]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (166)
+[2018.09.21-14.55.43:815][522]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (164)
+[2018.09.21-14.55.43:815][522]LogModuleManager: Shutting down and abandoning module FunctionalTesting (162)
+[2018.09.21-14.55.43:815][522]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (160)
+[2018.09.21-14.55.43:815][522]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (159)
+[2018.09.21-14.55.43:816][522]LogModuleManager: Shutting down and abandoning module UMG (156)
+[2018.09.21-14.55.43:816][522]LogModuleManager: Shutting down and abandoning module UMGEditor (155)
+[2018.09.21-14.55.43:816][522]LogModuleManager: Shutting down and abandoning module Sequencer (154)
+[2018.09.21-14.55.43:818][522]LogModuleManager: Shutting down and abandoning module MessageLog (151)
+[2018.09.21-14.55.43:818][522]LogModuleManager: Shutting down and abandoning module SlateReflector (146)
+[2018.09.21-14.55.43:818][522]LogModuleManager: Shutting down and abandoning module Slate (144)
+[2018.09.21-14.55.43:818][522]LogModuleManager: Shutting down and abandoning module EditorStyle (142)
+[2018.09.21-14.55.43:823][522]LogModuleManager: Shutting down and abandoning module MRMesh (140)
+[2018.09.21-14.55.43:823][522]LogModuleManager: Shutting down and abandoning module Messaging (138)
+[2018.09.21-14.55.43:823][522]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (136)
+[2018.09.21-14.55.43:823][522]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (134)
+[2018.09.21-14.55.43:823][522]LogModuleManager: Shutting down and abandoning module AudioMixerSDL (132)
+[2018.09.21-14.55.43:823][522]LogModuleManager: Shutting down and abandoning module Networking (130)
+[2018.09.21-14.55.43:823][522]LogModuleManager: Shutting down and abandoning module Core (128)
+[2018.09.21-14.55.43:823][522]LogModuleManager: Shutting down and abandoning module LevelSequence (126)
+[2018.09.21-14.55.43:823][522]LogModuleManager: Shutting down and abandoning module KismetCompiler (124)
+[2018.09.21-14.55.43:823][522]LogModuleManager: Shutting down and abandoning module MeshUtilities (122)
+[2018.09.21-14.55.43:823][522]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (121)
+[2018.09.21-14.55.43:824][522]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (120)
+[2018.09.21-14.55.43:824][522]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (119)
+[2018.09.21-14.55.43:824][522]LogModuleManager: Shutting down and abandoning module MaterialBaking (115)
+[2018.09.21-14.55.43:824][522]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (111)
+[2018.09.21-14.55.43:869][522]LogModuleManager: Shutting down and abandoning module DerivedDataCache (108)
+[2018.09.21-14.55.43:897][522]LogDerivedDataCache: Shutdown
+[2018.09.21-14.55.43:897][522]LogModuleManager: Shutting down and abandoning module TargetPlatform (106)
+[2018.09.21-14.55.43:897][522]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (105)
+[2018.09.21-14.55.43:897][522]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (103)
+[2018.09.21-14.55.43:897][522]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (101)
+[2018.09.21-14.55.43:897][522]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (99)
+[2018.09.21-14.55.43:897][522]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (97)
+[2018.09.21-14.55.43:897][522]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (95)
+[2018.09.21-14.55.43:897][522]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (93)
+[2018.09.21-14.55.43:897][522]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (91)
+[2018.09.21-14.55.43:897][522]LogModuleManager: Shutting down and abandoning module ImageWrapper (90)
+[2018.09.21-14.55.43:897][522]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (87)
+[2018.09.21-14.55.43:897][522]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (85)
+[2018.09.21-14.55.43:897][522]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (83)
+[2018.09.21-14.55.43:897][522]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (81)
+[2018.09.21-14.55.43:898][522]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (79)
+[2018.09.21-14.55.43:919][522]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (77)
+[2018.09.21-14.55.43:919][522]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (75)
+[2018.09.21-14.55.43:919][522]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (73)
+[2018.09.21-14.55.43:919][522]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (71)
+[2018.09.21-14.55.43:919][522]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (69)
+[2018.09.21-14.55.43:919][522]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (67)
+[2018.09.21-14.55.43:919][522]LogModuleManager: Shutting down and abandoning module InputCore (64)
+[2018.09.21-14.55.43:919][522]LogModuleManager: Shutting down and abandoning module Settings (62)
+[2018.09.21-14.55.43:919][522]LogModuleManager: Shutting down and abandoning module PhysXCooking (60)
+[2018.09.21-14.55.43:920][522]LogModuleManager: Shutting down and abandoning module LinuxDeviceProfileSelector (58)
+[2018.09.21-14.55.43:920][522]LogModuleManager: Shutting down and abandoning module SteamVR (56)
+[2018.09.21-14.55.43:920][522]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (54)
+[2018.09.21-14.55.43:920][522]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (52)
+[2018.09.21-14.55.43:920][522]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (48)
+[2018.09.21-14.55.43:921][522]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.09.21-14.55.43:922][522]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.09.21-14.55.43:922][522]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.09.21-14.55.43:922][522]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B05C0B71D-08D6-1FD9-80A3-C962D7F67077%7D&AppID=UEEditor.UnrealEngine.Release&AppVersion=4.20.2-0%2B%2B%2BUE4%2BRelease-4.20&UserID=0002542b2009130d00150069c6c0a750%7C%7C9907ed74c1a44e52b1127644e2556a98&AppEnvironment=datacollector-source&UploadType=eteventstream] status=Processing
+[2018.09.21-14.55.43:946][522]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.09.21-14.55.43:948][522]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (36)
+[2018.09.21-14.55.43:948][522]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2018.09.21-14.55.43:948][522]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2018.09.21-14.55.43:948][522]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2018.09.21-14.55.43:948][522]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2018.09.21-14.55.43:948][522]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2018.09.21-14.55.43:948][522]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2018.09.21-14.55.43:948][522]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2018.09.21-14.55.43:949][522]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2018.09.21-14.55.43:949][522]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.09.21-14.55.43:949][522]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.09.21-14.55.43:950][522]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.09.21-14.55.43:950][522]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.09.21-14.55.43:950][522]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.09.21-14.55.43:950][522]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.09.21-14.55.43:950][522]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.09.21-14.55.43:950][522]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.09.21-14.55.43:950][522]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.09.21-14.55.43:951][522]LogExit: Exiting.
+[2018.09.21-14.55.43:951][522]LogInit: Tearing down SDL.
+[2018.09.21-14.55.43:994][522]Log file closed, 09/21/18 15:55:43
